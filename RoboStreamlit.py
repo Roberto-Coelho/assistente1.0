@@ -1,12 +1,9 @@
 from calendar import c
 import streamlit as st
-#from streamlit import theme
 import pandas as pd
 import numpy as np
 import altair as alt
 
-# with open("aparenciastreamlit.css") as f:
-#    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 st.title('Asistente Para Trader Esportivo')
 
 option = st.selectbox(
@@ -110,6 +107,3 @@ if option == 'Brasil Serie A':
     col1.metric('Total de Jogos até agora', f'{quantijogo}', '')
     col2.metric('Um Gol Exato', f'{umgolex}', '')
     col3.metric('Over 2,5', f'{over2}', '')
-
-
-#escanteios_totais_C = dados.HC
