@@ -113,38 +113,3 @@ if option == 'Brasil Serie A':
 
 
 #escanteios_totais_C = dados.HC
-#escanteios_totais_A = dados.AC
-# st.write(escanteios_totais_C)
-
-# cria o histograma
-# hist_values = np.histogram(
-#   dados.HC)
-# cria o histograma
-
-# desenha o histograma
-# st.bar_chart(hist_values)
-
-#st.subheader(f'Filtro Por Cotação do Mandante ')
-# oddmandante = st.number_input(
-#   'Exemplo: 1.6', 0, 40, 2)  # min: , max: , default:
-
-#filtered_odd = dados[dados.B365H == oddmandante]
-# st.write(filtered_odd)
-
-#st.subheader(f'Filtro Por escanteios do Mandante ')
-# cantos_filter = st.slider(
-#   '', 0, 30, 5)  # min: 0, max: , default:0
-#filtered_cantos = dados[dados.HC == cantos_filter]
-
-# st.write(filtered_cantos)
-
-#st.subheader(f'Filtro Por faltas cometidas pelo Mandante ')
-# fmandante = st.slider('', 0, 50, 8)  # min: 0, max: , default:0
-
-#filtered_fal = dados[dados.HF == fmandante]
-# st.write(filtered_fal)
-
-
-# option1 = st.selectbox(
-#   'Cantos desejados',
-#  list(range(10, 25)))
